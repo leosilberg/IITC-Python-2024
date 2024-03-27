@@ -1,8 +1,8 @@
 ## 1
 # def aggregate_list_values(inputs):
 #     dict = {}
-#     for tup in inputs:
-#         dict[tup[0]] = dict.setdefault(tup[0], 0) + tup[1]
+#     for k,v in inputs:
+#         dict[k] = dict.setdefault(k, 0) + v
 #     print(dict)
 
 
